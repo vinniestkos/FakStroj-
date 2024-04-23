@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\42077\Pictures\EFSQLite-master\EFSQLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-18T20:28:53.380</Modified>
+      <Modified>2024-04-23T19:02:38.690</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\42077\Pictures\EFSQLite-master\EFSQLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-18T20:28:52.376</Modified>
+      <Modified>2024-04-23T19:02:38.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\42077\Pictures\EFSQLite-master\EFSQLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EFSQLite.runtimeconfig.json">
       <PackagePath>EFSQLite.runtimeconfig.json</PackagePath>
-      <Modified>2024-04-18T20:28:52.152</Modified>
+      <Modified>2024-04-23T18:55:16.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\42077\Pictures\EFSQLite-master\EFSQLite\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EFSQLite.dll">
       <PackagePath>EFSQLite.dll</PackagePath>
-      <Modified>2024-04-18T20:28:50.372</Modified>
+      <Modified>2024-04-23T19:02:37.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\42077\Pictures\EFSQLite-master\EFSQLite\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EFSQLite.exe</PackagePath>
-      <Modified>2024-04-18T20:28:50.409</Modified>
+      <Modified>2024-04-23T19:02:37.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\42077\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -967,7 +967,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\42077\Pictures\EFSQLite-master\EFSQLite\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\EFSQLite.deps.json">
       <PackagePath>EFSQLite.deps.json</PackagePath>
-      <Modified>2024-04-18T20:28:52.647</Modified>
+      <Modified>2024-04-23T19:02:38.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.81\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

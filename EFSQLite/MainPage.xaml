@@ -73,23 +73,9 @@
 
 
 
-            <ListView x:Name="lst" 
-          WidthRequest="250"
-          Header="objednavky" 
-          HorizontalOptions="Center" 
-          BackgroundColor="LightGrey"
-          Grid.Row="10"
-           Grid.Column="1"
-         />
+           
 
-            <ListView x:Name="lst2" 
-          WidthRequest="250"
-          Header="objednavky" 
-          HorizontalOptions="Center" 
-          BackgroundColor="LightGrey"
-                      Grid.Row="10"
-Grid.Column="1"
-         />
+          
 
             <Button Text="Odběratel:"
        FontSize="Large"
@@ -259,7 +245,8 @@ Grid.Column="1"
 
             <Entry Grid.Row="8" Grid.Column="0"
                    Grid.ColumnSpan="2"
-            Placeholder="produkt" 
+                   x:Name="produkt"
+            Placeholder="produkt"
             FontSize="Title" 
             TextColor="Black" 
             WidthRequest="320"
@@ -270,6 +257,7 @@ Grid.Column="1"
             />
 
             <Entry Grid.Row="8" Grid.Column="1"
+                   x:Name="množství"
             Placeholder="množství" 
             FontSize="Title" 
             TextColor="Black" 
@@ -281,6 +269,7 @@ Grid.Column="1"
             />
 
             <Entry Grid.Row="8" Grid.Column="2"
+                   x:Name="cena"
             Placeholder="cena" 
             FontSize="Title" 
             TextColor="Black" 
@@ -300,6 +289,24 @@ Grid.Column="1"
                     TextColor="AliceBlue" 
                     FontSize="Large"
                     Clicked="UlozObjednavku"/>
+            
+            <ListView x:Name="lst" 
+          WidthRequest="250"
+          Header="Customers" 
+          HorizontalOptions="Center" 
+          BackgroundColor="LightGrey"
+          Grid.Row="10"
+          Grid.Column="1"
+         />
+
+            <ListView x:Name="lst2" 
+          WidthRequest="250"
+          Header="Suppliers" 
+          HorizontalOptions="Center" 
+          BackgroundColor="LightGrey"
+          Grid.Row="10"
+          Grid.Column="2"
+         />
 
         </Grid>
     </ScrollView>

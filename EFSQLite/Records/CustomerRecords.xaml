@@ -46,6 +46,27 @@
         Text="{Binding DIC}"
         VerticalOptions="Center" 
         HorizontalOptions="Center" />
-        
+
+
+        <ListView x:Name="lst" 
+          WidthRequest="250"
+          Header="Customers" 
+          HorizontalOptions="Center" 
+          BackgroundColor="LightGrey"
+          Grid.Row="10"
+           Grid.Column="1"
+         />
+        <Button Grid.Row="9" Grid.Column="1"
+                    Grid.ColumnSpan="2"
+                    WidthRequest="380"
+                    HeightRequest="65"
+                    Text="vytvořit fakturu"
+                    BackgroundColor="DarkRed"
+                    TextColor="AliceBlue" 
+                    FontSize="Large"
+                    Clicked="Button_Clicked"/>
+
+        <Button Text="Detail" HorizontalOptions="Center" x:Name="detailBTN" Clicked="Detajly"/>
+
     </VerticalStackLayout>
 </ContentPage>

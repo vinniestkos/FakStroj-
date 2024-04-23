@@ -47,5 +47,16 @@
     VerticalOptions="Center" 
     HorizontalOptions="Center" />
 
+        <ListView x:Name="lst2" 
+          WidthRequest="250"
+          Header="Suppliers" 
+          HorizontalOptions="Center" 
+          BackgroundColor="LightGrey"
+          Grid.Row="10"
+          Grid.Column="1"
+         />
+
+        <Button Text="Detail" HorizontalOptions="Center" x:Name="detailBTN" Clicked="Detajly2"/>
+
     </VerticalStackLayout>
 </ContentPage>

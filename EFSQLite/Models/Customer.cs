@@ -13,10 +13,13 @@
         public string ICO { get; set; }
 
         public string DIC { get; set; }
+        public string Product { get; set; }
+        public string Quantity { get; set; }
+        public string Price { get; set; }
 
         public override string ToString()
         {
-            return $"{Name} {Address} {City} {PSC} {ICO} {DIC}";   
+            return $"{Name} {Address} {City} {PSC} {ICO} {DIC} {Product} {Quantity} {Price}";   
         }
     }
 }

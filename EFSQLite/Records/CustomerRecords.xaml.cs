@@ -1,5 +1,7 @@
 using EFSQLite.Data;
 using EFSQLite.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Collections.Generic;
 
 namespace EFSQLite;
 
@@ -18,7 +20,16 @@ public partial class CustomerRecords : ContentPage
 
     public string DIC { get; set; }
 
+  
+
     MyContext _context;
+
+    public CustomerRecords()
+    {
+        lst.ItemsSource = _context.Customers.ToList();
+        InitializeComponent();
+        BindingContext = this;
+    }
 
     public CustomerRecords (int id, MyContext context)
     {
@@ -40,9 +51,22 @@ public partial class CustomerRecords : ContentPage
 
 
 
-    public CustomerRecords()
-	{
-		InitializeComponent();
-        BindingContext = this;
+   
+    private async void Detajly(object sender, EventArgs e)
+    {
+        int id = (lst.SelectedItem as Customer).Id;
+        CustomerRecords dp = new(id, _context);
+        await Navigation.PushAsync(dp);
+    }
+    void refresh()
+    {
+        lst.ItemsSource = null;
+        lst.ItemsSource = _context.Customers.ToList();
+    }
+    
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        refresh();
     }
 }

@@ -19,7 +19,7 @@ namespace EFSQLite.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source= SupplierData.db"); // naše SQLite databáze ve složce BIN
+            optionsBuilder.UseSqlite("Data Source= SupplierData_.db"); // naše SQLite databáze ve složce BIN
         }
     }
 }
