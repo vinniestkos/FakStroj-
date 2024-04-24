@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JIfJn9KJ5KqWdXTINd92dzaLRoIYjyzh5hELXjsVxRNkwoCUGemgB+w3CurvjnE7cJxh3kv902KrvYiuhAIAkg==",
+  "dgSpecHash": "y7AdhX8bNm9QRBnsjvIg5UtoaHLke0EYAgpgs2EwLQhhhoxuGFHH8ZzZB6WG+Ztfna2SDkLfOrL09UNmGaqjhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\42077\\Pictures\\EFSQLite-master\\EFSQLite\\EFSQLite.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\42077\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.81\\microsoft.maui.graphics.win2d.winui.desktop.7.0.81.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\42077\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\42077\\.nuget\\packages\\questpdf\\2024.3.0\\questpdf.2024.3.0.nupkg.sha512",
     "C:\\Users\\42077\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\42077\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
     "C:\\Users\\42077\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",

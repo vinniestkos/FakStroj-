@@ -51,6 +51,7 @@
 	<ItemGroup>
 		<PackageReference Include="microsoft.entityframeworkcore.sqlite" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="QuestPDF" Version="2024.3.0" />
 
 	</ItemGroup>
 

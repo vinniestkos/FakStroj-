@@ -1,17 +1,79 @@
 ﻿using EFSQLite.Data;
 using EFSQLite.Models;
 using EFSQLite.Records;
+using Microsoft.EntityFrameworkCore.Internal;
+
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Infrastructure;
+using QuestPDF.Previewer;
+using System.Diagnostics;
+using System.Net;
+using System.Xml.Linq;
 
 namespace EFSQLite;
 
+
 public partial class MainPage : ContentPage
 {
+    
 	MyContext _context;
     MyContext2 context_;
     public MainPage()
 	{
-		_context = new();
+        QuestPDF.Settings.License = LicenseType.Community;
+
+        Document.Create(container =>
+        {
+            container.Page(page =>
+            {
+                page.Size(PageSizes.A4);
+                page.Margin(2, Unit.Centimetre);
+               
+                page.DefaultTextStyle(x => x.FontSize(20));
+
+                page.Header()
+                    .Text("Hello PDF!");
+
+
+                page.Content()
+                    .PaddingVertical(1, Unit.Centimetre)
+                    .Column(x =>
+                    {
+                        x.Spacing(20);
+
+                        x.Item().Text(Placeholders.LoremIpsum());
+                        x.Item().Image(Placeholders.Image(200, 100));
+                    });
+
+                page.Footer()
+                    .AlignCenter()
+                    .Text(x =>
+                    {
+                        x.Span("Page ");
+                        x.CurrentPageNumber();
+                    });
+            });
+        })
+.GeneratePdf("hello.pdf");
+
+        //Document.Create(document =>
+        //{
+        //    document.Page(page =>
+        //    {
+
+        //        page.Size(PageSizes.A4);
+
+        //        page.Header()
+        //        .Text(forCustomerName);
+
+
+        //    });
+        //});
+
+        _context = new();
         context_ = new();
+        QuestPDF.Settings.License = LicenseType.Community;
         InitializeComponent();
         lst.ItemsSource = _context.Customers.ToList();
         lst2.ItemsSource = context_.Suppliers.ToList(); // připojení zdroje dat k ListView
@@ -35,9 +97,9 @@ public partial class MainPage : ContentPage
         lst2.ItemsSource = null;
         lst2.ItemsSource = context_.Suppliers.ToList();
     }
-    private void UlozObjednavku(object sender, EventArgs e)
+    public void UlozObjednavku(object sender, EventArgs e)
     {
-        
+      
 
         Customer newCustomer = new Customer
 

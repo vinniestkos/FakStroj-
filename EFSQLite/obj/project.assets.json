@@ -368,6 +368,117 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/OFL.txt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -2594,6 +2705,40 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -4812,6 +4957,22 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -7034,6 +7195,22 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -9252,6 +9429,40 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -11474,6 +11685,40 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -13692,6 +13937,40 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -15914,6 +16193,22 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -18121,6 +18416,117 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/OFL.txt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -18584,6 +18990,40 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -19039,6 +19479,22 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -19498,6 +19954,22 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -19953,6 +20425,40 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -20412,6 +20918,40 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -20867,6 +21407,40 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -21326,6 +21900,22 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -21780,6 +22370,117 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/OFL.txt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
           }
         }
       },
@@ -22327,6 +23028,40 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -22776,6 +23511,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -23229,6 +23980,22 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -23678,6 +24445,40 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -24131,6 +24932,40 @@
           }
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -24577,6 +25412,40 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -25028,6 +25897,22 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -25616,6 +26501,117 @@
           "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
             "assetType": "native",
             "rid": "win10-x86"
+          }
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/any/native/LatoFont/OFL.txt": {
+            "assetType": "native",
+            "rid": "any"
+          },
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
           }
         }
       },
@@ -26273,6 +27269,40 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -26832,6 +27862,22 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -27395,6 +28441,22 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -27954,6 +29016,40 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -28517,6 +29613,40 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
         "type": "package",
         "dependencies": {
@@ -29073,6 +30203,40 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/any/native/LatoFont/Lato-Black.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Bold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Italic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Light.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-LightItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Medium.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Regular.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBold.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-Thin.ttf": {},
+          "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf": {},
+          "runtimes/any/native/LatoFont/OFL.txt": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -29640,6 +30804,22 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "QuestPDF/2024.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -31154,6 +32334,67 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "QuestPDF/2024.3.0": {
+      "sha512": "3UsHztlheCEa+EgGaND8jSwQrAduayBwwerzAfb40AJM+epRCz/jome2qadEeFrmAC7bqSsggalsSsAriCKHnA==",
+      "type": "package",
+      "path": "questpdf/2024.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Contributors.md",
+        "Description.md",
+        "Documentation.xml",
+        "ExternalDependencyLicenses/emsdk.txt",
+        "ExternalDependencyLicenses/expat.txt",
+        "ExternalDependencyLicenses/harfbuzz/ExternalDependencyLicenses/harfbuzz",
+        "ExternalDependencyLicenses/icu.txt",
+        "ExternalDependencyLicenses/libjpeg-turbo.txt",
+        "ExternalDependencyLicenses/libpng.txt",
+        "ExternalDependencyLicenses/libwebp.txt",
+        "ExternalDependencyLicenses/ninja-build.txt",
+        "ExternalDependencyLicenses/readme.txt",
+        "ExternalDependencyLicenses/skia.txt",
+        "ExternalDependencyLicenses/wuffs.txt",
+        "ExternalDependencyLicenses/zlib.txt",
+        "Logo.png",
+        "PackageLicense.md",
+        "PackageReadme.md",
+        "ReleaseNotes.txt",
+        "build/net4/QuestPDF.targets",
+        "lib/net6.0/QuestPDF.dll",
+        "lib/net6.0/QuestPDF.xml",
+        "lib/net8.0/QuestPDF.dll",
+        "lib/net8.0/QuestPDF.xml",
+        "lib/netstandard2.0/QuestPDF.dll",
+        "lib/netstandard2.0/QuestPDF.xml",
+        "questpdf.2024.3.0.nupkg.sha512",
+        "questpdf.nuspec",
+        "runtimes/any/native/LatoFont/Lato-Black.ttf",
+        "runtimes/any/native/LatoFont/Lato-BlackItalic.ttf",
+        "runtimes/any/native/LatoFont/Lato-Bold.ttf",
+        "runtimes/any/native/LatoFont/Lato-BoldItalic.ttf",
+        "runtimes/any/native/LatoFont/Lato-ExtraBold.ttf",
+        "runtimes/any/native/LatoFont/Lato-ExtraBoldItalic.ttf",
+        "runtimes/any/native/LatoFont/Lato-ExtraLight.ttf",
+        "runtimes/any/native/LatoFont/Lato-ExtraLightItalic.ttf",
+        "runtimes/any/native/LatoFont/Lato-Italic.ttf",
+        "runtimes/any/native/LatoFont/Lato-Light.ttf",
+        "runtimes/any/native/LatoFont/Lato-LightItalic.ttf",
+        "runtimes/any/native/LatoFont/Lato-Medium.ttf",
+        "runtimes/any/native/LatoFont/Lato-MediumItalic.ttf",
+        "runtimes/any/native/LatoFont/Lato-Regular.ttf",
+        "runtimes/any/native/LatoFont/Lato-SemiBold.ttf",
+        "runtimes/any/native/LatoFont/Lato-SemiBoldItalic.ttf",
+        "runtimes/any/native/LatoFont/Lato-Thin.ttf",
+        "runtimes/any/native/LatoFont/Lato-ThinItalic.ttf",
+        "runtimes/any/native/LatoFont/OFL.txt",
+        "runtimes/linux-arm64/native/libQuestPdfSkia.so",
+        "runtimes/linux-x64/native/libQuestPdfSkia.so",
+        "runtimes/osx-arm64/native/libQuestPdfSkia.dylib",
+        "runtimes/osx-x64/native/libQuestPdfSkia.dylib",
+        "runtimes/win-x64/native/QuestPdfSkia.dll"
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -33482,6 +34723,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.81",
+      "QuestPDF >= 2024.3.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -33502,6 +34744,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.81",
+      "QuestPDF >= 2024.3.0",
       "microsoft.entityframeworkcore.sqlite >= 7.0.0"
     ],
     "net7.0-maccatalyst16.1": [
@@ -33511,6 +34754,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.81",
+      "QuestPDF >= 2024.3.0",
       "microsoft.entityframeworkcore.sqlite >= 7.0.0"
     ],
     "net7.0-windows10.0.19041": [
@@ -33523,6 +34767,7 @@
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.81",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "QuestPDF >= 2024.3.0",
       "microsoft.entityframeworkcore.sqlite >= 7.0.0"
     ]
   },
@@ -33615,6 +34860,10 @@
             "target": "Package",
             "version": "[7.0.81, )",
             "autoReferenced": true
+          },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2024.3.0, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -33738,6 +34987,10 @@
             "version": "[7.0.81, )",
             "autoReferenced": true
           },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2024.3.0, )"
+          },
           "microsoft.entityframeworkcore.sqlite": {
             "target": "Package",
             "version": "[7.0.0, )"
@@ -33804,6 +35057,10 @@
             "target": "Package",
             "version": "[7.0.81, )",
             "autoReferenced": true
+          },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2024.3.0, )"
           },
           "microsoft.entityframeworkcore.sqlite": {
             "target": "Package",
@@ -33888,6 +35145,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "QuestPDF": {
+            "target": "Package",
+            "version": "[2024.3.0, )"
           },
           "microsoft.entityframeworkcore.sqlite": {
             "target": "Package",
